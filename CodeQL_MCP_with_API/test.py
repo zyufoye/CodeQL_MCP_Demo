@@ -45,4 +45,4 @@ def call_deepseek_api(prompt):
     except Exception as e:
         return f"API调用失败: {str(e)}"
 
-print(call_deepseek_api("请生成一个关于代码安全的报告"))
+# print(call_deepseek_api("请生成一个关于代码安全的报告"))
